@@ -8,7 +8,7 @@
 import Foundation
 
 struct Game : Identifiable {
-    
+    let uuid = UUID()
     let id: Int
     let image: String
     let name: String
